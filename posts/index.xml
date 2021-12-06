@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on o-k-r</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on o-k-r</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021, okr.</copyright>
+    <lastBuildDate>Mon, 29 Nov 2021 21:02:01 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>syncing with Syncthing</title>
+      <link>http://example.org/posts/syncing-with-syncthing/</link>
+      <pubDate>Mon, 29 Nov 2021 21:02:01 +0100</pubDate>
+      
+      <guid>http://example.org/posts/syncing-with-syncthing/</guid>
+      <description>Syncing with Syncthing Syncthing is definitely one of the things I set up as quickly as I can on a new device. I use it for:
+ syncing wallpapers between desktop devices, making automatic backups of pictures on my phone, keeping music files in sync between all devices (phone and PCs), maintaining one todo.txt file that I can access everywhere, having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines.</description>
+    </item>
+    
+    <item>
+      <title>self-hosted bookmarks</title>
+      <link>http://example.org/posts/syncing-bookmarks/</link>
+      <pubDate>Wed, 24 Nov 2021 20:46:04 +0100</pubDate>
+      
+      <guid>http://example.org/posts/syncing-bookmarks/</guid>
+      <description>self-hosted bookmarks I&amp;rsquo;ve been a Pocket user for years, however I never really liked the interface and the fact that it&amp;rsquo;s a closed-source cloud service with advertisements and social sharing/suggestions. All I need is a list of links, preferably with titles. Then there&amp;rsquo;s also Wallabag, which I self-hosted for a while, but it&amp;rsquo;s still way to complex for my use case.
+I use Syncthing to keep my files in sync between my computers and phone.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://example.org/images/favicon.png" />
+<title>syncing with Syncthing | o-k-r</title>
+<meta name="title" content="syncing with Syncthing" />
+<meta name="description" content="Syncing with Syncthing Syncthing is definitely one of the things I set up as quickly as I can on a new device. I use it for:
+ syncing wallpapers between desktop devices, making automatic backups of pictures on my phone, keeping music files in sync between all devices (phone and PCs), maintaining one todo.txt file that I can access everywhere, having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="syncing with Syncthing" />
+<meta property="og:description" content="Syncing with Syncthing Syncthing is definitely one of the things I set up as quickly as I can on a new device. I use it for:
+ syncing wallpapers between desktop devices, making automatic backups of pictures on my phone, keeping music files in sync between all devices (phone and PCs), maintaining one todo.txt file that I can access everywhere, having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/syncing-with-syncthing/" /><meta property="og:image" content="http://example.org/images/share.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-29T21:02:01+01:00" />
+<meta property="article:modified_time" content="2021-11-29T21:02:01+01:00" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/images/share.png"/>
+
+<meta name="twitter:title" content="syncing with Syncthing"/>
+<meta name="twitter:description" content="Syncing with Syncthing Syncthing is definitely one of the things I set up as quickly as I can on a new device. I use it for:
+ syncing wallpapers between desktop devices, making automatic backups of pictures on my phone, keeping music files in sync between all devices (phone and PCs), maintaining one todo.txt file that I can access everywhere, having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines."/>
+
+
+
+<meta itemprop="name" content="syncing with Syncthing">
+<meta itemprop="description" content="Syncing with Syncthing Syncthing is definitely one of the things I set up as quickly as I can on a new device. I use it for:
+ syncing wallpapers between desktop devices, making automatic backups of pictures on my phone, keeping music files in sync between all devices (phone and PCs), maintaining one todo.txt file that I can access everywhere, having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines."><meta itemprop="datePublished" content="2021-11-29T21:02:01+01:00" />
+<meta itemprop="dateModified" content="2021-11-29T21:02:01+01:00" />
+<meta itemprop="wordCount" content="192"><meta itemprop="image" content="http://example.org/images/share.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: white;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #eee;
+  }
+
+  pre code {
+    border-left: 1px solid #999;
+    color: #555;
+    display: block;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #555;
+    padding-left: 10px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>o-k-r</h2>
+</a>
+<nav><a href="/">home</a>
+
+
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="syncing-with-syncthing">Syncing with Syncthing</h1>
+<p><a href="https://syncthing.net/">Syncthing</a> is definitely one of the things I set up as quickly as I can on a new device. I use it for:</p>
+<ul>
+<li>syncing wallpapers between desktop devices,</li>
+<li>making automatic backups of pictures on my phone,</li>
+<li>keeping music files in sync between all devices (phone and PCs),</li>
+<li>maintaining one todo.txt file that I can access everywhere,</li>
+<li>having my savegames synced across devices, so that I can play on any one of them and have the progress propagated to other machines.</li>
+</ul>
+<p>I have set up different refresh intervals for these files, depending on their importance to me. So files like wallpapers or camera backups are checked once an hour and if devices that should share them are online, they get synced. This is done opportunistically and sometimes takes a lot of time, which is absolutely fine.</p>
+<p>One drawback of P2P, local-only system like this is the possibility of conflicts when the state of the same file changes independently on multiple devices. To mitigate this issue I set up Syncthing on an always-on Raspberry Pi Zero W, which makes the crucial files (like the TODO list) always available to other devices.</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
